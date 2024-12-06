@@ -1,0 +1,43 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, hwb(211 0% 0%), #0056b3);
+}
+
+footer {
+    background-color: #333;
+}
+
+
+/* Skills Section */
+
+#skills {
+    background-color: #f8f9fa;
+    /* Light background */
+}
+
+.skill-card {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #0056b3;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-10px);
+    /* Hover effect */
+}
+
+h5 {
+    color: #f4f4f4;
+    font-weight: 600;
+}
+
+#skills h2 {
+    color: #333;
+}

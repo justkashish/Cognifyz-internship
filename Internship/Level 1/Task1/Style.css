@@ -1,0 +1,32 @@
+.background {
+    margin: 0;
+    padding: 0;
+    background-image: url("./background1.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    margin: 9%;
+    width: 350px;
+    height: 450px;
+    background: rgba(240, 57, 57, 0.4);
+    text-align: center;
+    color: white;
+}
+
+.img {
+    margin-left: 28%;
+    margin-top: 8%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 200px;
+    width: 150px;
+    background-image: url(./passport\ photo.jpg);
+}
